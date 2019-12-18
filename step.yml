@@ -9,7 +9,7 @@
 
 title: |-
   Set Git Credentials
-summary: |
+summary: |- 
   Sets the Git credentials used in a workflow
 description: |
   Sets the name and email address of the Git credentials used in a workflow
@@ -52,10 +52,8 @@ run_if: ""
 deps:
   brew:
   - name: git
-  - name: wget
   apt_get:
   - name: git
-  - name: wget
 
 
 toolkit:
